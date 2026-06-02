@@ -1,36 +1,35 @@
-# 🧹 Kubernetes Cleanup Guide
+# Kubernetes Cleanup Guide
 
-A simple and clear guide to clean your Kubernetes environment — from partial cleanup to full reset.
-
----
-
-## 📌 Overview
-
-When working with Kubernetes, you may need to delete resources for:
-
-* restarting your project
-* fixing broken deployments
-* cleaning unused resources
-
-This guide provides **3 levels of cleanup** depending on your need.
+A structured guide to safely clean and reset your Kubernetes environment based on different operational needs.
 
 ---
 
-## ⚠️ Important
+# Overview
 
-Choose the correct level carefully:
+During Kubernetes development and testing, cleanup operations are often required for:
 
-| Level         | Type             | Impact                    |
-| ------------- | ---------------- | ------------------------- |
-| 🟢 Safe       | Project Cleanup  | Deletes only your project |
-| 🟡 Medium     | Helm + Namespace | Removes apps completely   |
-| 🔴 Full Reset | Cluster Reset    | Deletes EVERYTHING        |
+* restarting deployments
+* resolving configuration issues
+* removing unused resources
+* preparing environments for fresh installations
+
+This guide provides three levels of cleanup ranging from safe project cleanup to complete cluster reset.
 
 ---
 
-# 🟢 Option 1 — Safe Cleanup (Recommended)
+# Cleanup Levels
 
-Delete only your project namespaces.
+| Level        | Cleanup Type             | Impact                                       |
+| ------------ | ------------------------ | -------------------------------------------- |
+| Safe Cleanup | Project Resource Cleanup | Removes only project-specific resources      |
+| Helm Cleanup | Application Removal      | Removes Helm-managed applications completely |
+| Full Reset   | Cluster Reset            | Removes the entire Kubernetes cluster        |
+
+---
+
+# Option 1 — Safe Cleanup (Recommended)
+
+Delete only project-related namespaces.
 
 ```bash
 kubectl delete namespace airflow
@@ -38,22 +37,25 @@ kubectl delete namespace monitoring
 kubectl delete namespace rtf-data-pipline
 ```
 
-### ✅ Removes:
+## Resources Removed
 
-* Airflow
-* Prometheus & Grafana
+* Airflow resources
+* Monitoring stack resources
 * Data pipeline resources
 
-### ❌ Keeps:
+## Resources Preserved
 
 * Kubernetes cluster
-* System components
+* Core system services
+* Minikube configuration
 
-👉 Best for daily development cleanup.
+## Recommended Usage
+
+Best suited for routine development cleanup and redeployment activities.
 
 ---
 
-# 🟡 Option 2 — Helm Cleanup (Clean Uninstall)
+# Option 2 — Helm Cleanup (Complete Application Removal)
 
 First uninstall Helm releases:
 
@@ -62,7 +64,7 @@ helm uninstall airflow -n airflow
 helm uninstall monitoring -n monitoring
 ```
 
-Then delete namespaces:
+Then remove the namespaces:
 
 ```bash
 kubectl delete namespace airflow
@@ -70,18 +72,21 @@ kubectl delete namespace monitoring
 kubectl delete namespace rtf-data-pipline
 ```
 
-### ✅ Removes:
+## Resources Removed
 
 * Helm-managed applications
-* All related resources
+* Associated Kubernetes resources
+* Application configurations
 
-👉 Best when you want a **clean reinstall**.
+## Recommended Usage
+
+Use this approach before reinstalling applications or when troubleshooting deployment issues.
 
 ---
 
-# 🔴 Option 3 — Full Reset (Nuclear Option 💣)
+# Option 3 — Full Cluster Reset
 
-Delete entire Kubernetes cluster:
+Delete the entire Kubernetes cluster:
 
 ```bash
 minikube delete
@@ -89,7 +94,7 @@ minikube delete
 
 ---
 
-## 🔄 Recreate Cluster
+# Recreate the Kubernetes Cluster
 
 ```bash
 minikube start --driver=docker --memory=8144 --cpus=4
@@ -97,24 +102,27 @@ minikube start --driver=docker --memory=8144 --cpus=4
 
 ---
 
-## ⚠️ WARNING
+# Important Warning
 
-This will delete:
+A full cluster reset removes:
 
 * All Pods
 * All Deployments
 * All Services
-* All ConfigMaps & Secrets
+* All ConfigMaps
+* All Secrets
 * All Persistent Volumes
-* Entire Kubernetes cluster
+* Entire Minikube cluster configuration
 
-👉 Use only if everything is broken.
+## Recommended Usage
+
+Use only when the cluster environment is unstable or unrecoverable.
 
 ---
 
-# 🔍 Check Existing Namespaces
+# Verify Existing Namespaces
 
-Before deleting:
+Before deleting resources, verify current namespaces:
 
 ```bash
 kubectl get ns
@@ -122,44 +130,49 @@ kubectl get ns
 
 ---
 
-# 🎯 Recommended Command
+# Recommended Cleanup Command
 
-For most use cases:
+For most development scenarios:
 
 ```bash
 kubectl delete namespace airflow monitoring rtf-data-pipline
 ```
 
-✔ Fast
-✔ Safe
-✔ Clean
+## Benefits
+
+* Fast cleanup process
+* Safe for development environments
+* Removes project-specific resources efficiently
 
 ---
 
-# 💡 Pro Tips
+# Best Practices
 
-* Use **Safe Cleanup** during development
-* Use **Helm Cleanup** before reinstalling apps
-* Use **Full Reset** only as last option
-
----
-
-# 📊 Quick Summary
-
-| Goal             | Command                        |
-| ---------------- | ------------------------------ |
-| Clean project    | `kubectl delete namespace ...` |
-| Remove Helm apps | `helm uninstall ...`           |
-| Full reset       | `minikube delete`              |
+* Use Safe Cleanup during regular development cycles
+* Use Helm Cleanup before application reinstallation
+* Use Full Reset only for severe cluster issues
 
 ---
 
-# 🚀 Final Note
+# Quick Reference
 
-Managing cleanup properly is a key skill in Kubernetes.
-
-👉 Keep your environment clean
-👉 Avoid resource conflicts
-👉 Work like a real production engineer
+| Objective                | Command                        |
+| ------------------------ | ------------------------------ |
+| Remove project resources | `kubectl delete namespace ...` |
+| Remove Helm applications | `helm uninstall ...`           |
+| Reset Kubernetes cluster | `minikube delete`              |
 
 ---
+
+# Final Note
+
+Proper Kubernetes cleanup and resource management are essential for maintaining stable and efficient development environments.
+
+Effective cleanup practices help:
+
+* reduce resource conflicts
+* improve deployment consistency
+* maintain cluster stability
+* streamline development workflows
+
+Consistent environment management is an important skill for modern data and platform engineering workflows.
