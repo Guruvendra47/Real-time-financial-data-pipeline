@@ -1,0 +1,13 @@
+snowflake_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: VVKWIFZ-MBB39421.US-West-(Oregon)
+      user: GURU00
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: ACCOUNTADMIN
+      database: DB_REALTIME
+      warehouse: REALTIME_WH
+      schema: SM_REALTIME
+      threads: 4

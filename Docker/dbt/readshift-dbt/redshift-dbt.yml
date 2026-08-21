@@ -1,0 +1,12 @@
+real_time_project:
+  outputs:
+    dev:
+      dbname: dev
+      host: real-time-workgroup.954976291800.us-east-1.redshift-serverless.amazonaws.com
+      password: Qwertyuiop?01
+      port: 5439
+      schema: analytics
+      threads: 4
+      type: redshift
+      user: admin
+  target: dev
