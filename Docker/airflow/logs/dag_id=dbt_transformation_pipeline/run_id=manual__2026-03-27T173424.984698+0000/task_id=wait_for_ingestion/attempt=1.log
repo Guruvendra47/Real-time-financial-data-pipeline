@@ -1,0 +1,180 @@
+[2026-03-27T17:34:29.475+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:34:29.546+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:34:29.562+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:34:29.564+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-27T17:34:29.588+0000] {taskinstance.py:2330} INFO - Executing <Task(ExternalTaskSensor): wait_for_ingestion> on 2026-03-27 17:34:24.984698+00:00
+[2026-03-27T17:34:29.605+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_transformation_pipeline', 'wait_for_ingestion', 'manual__2026-03-27T17:34:24.984698+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/dag-dbt-transformation-pipeline.py', '--cfg-path', '/tmp/tmpiy9brblv']
+[2026-03-27T17:34:29.611+0000] {standard_task_runner.py:91} INFO - Job 2: Subtask wait_for_ingestion
+[2026-03-27T17:34:29.611+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=214) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:34:29.613+0000] {standard_task_runner.py:64} INFO - Started process 215 to run task
+[2026-03-27T17:34:29.736+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:34:29.975+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='dbt_transformation_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:34:24.984698+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:34:24.984698+00:00'
+[2026-03-27T17:34:29.977+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:34:30.045+0000] {baseoperator.py:400} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2026-03-27T17:34:30.068+0000] {external_task.py:258} INFO - Poking for tasks ['end'] in dag snowflake_ingestion_pipeline on 2026-03-27T17:34:24.984698+00:00 ... 
+[2026-03-27T17:34:30.077+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py:79 DeprecationWarning: This method is deprecated and will be removed in future.
+[2026-03-27T17:34:30.105+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:34:30.155+0000] {taskinstance.py:2865} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-03-27T17:34:30.192+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:34:30.248+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:34:30.252+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-27T17:35:31.295+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:35:31.368+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:35:31.389+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:35:31.390+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-27T17:35:31.431+0000] {taskinstance.py:2330} INFO - Executing <Task(ExternalTaskSensor): wait_for_ingestion> on 2026-03-27 17:34:24.984698+00:00
+[2026-03-27T17:35:31.451+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_transformation_pipeline', 'wait_for_ingestion', 'manual__2026-03-27T17:34:24.984698+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/dag-dbt-transformation-pipeline.py', '--cfg-path', '/tmp/tmpv7pklzq8']
+[2026-03-27T17:35:31.459+0000] {standard_task_runner.py:91} INFO - Job 3: Subtask wait_for_ingestion
+[2026-03-27T17:35:31.462+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=266) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:35:31.473+0000] {standard_task_runner.py:64} INFO - Started process 267 to run task
+[2026-03-27T17:35:31.639+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:35:31.865+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='dbt_transformation_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:34:24.984698+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:34:24.984698+00:00'
+[2026-03-27T17:35:31.867+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:35:31.903+0000] {baseoperator.py:400} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2026-03-27T17:35:31.924+0000] {external_task.py:258} INFO - Poking for tasks ['end'] in dag snowflake_ingestion_pipeline on 2026-03-27T17:34:24.984698+00:00 ... 
+[2026-03-27T17:35:31.934+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py:79 DeprecationWarning: This method is deprecated and will be removed in future.
+[2026-03-27T17:35:31.963+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:35:32.020+0000] {taskinstance.py:2865} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-03-27T17:35:32.053+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:35:32.138+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:35:32.145+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-27T17:36:32.644+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:36:32.770+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:36:32.793+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:36:32.794+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-27T17:36:32.838+0000] {taskinstance.py:2330} INFO - Executing <Task(ExternalTaskSensor): wait_for_ingestion> on 2026-03-27 17:34:24.984698+00:00
+[2026-03-27T17:36:32.864+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_transformation_pipeline', 'wait_for_ingestion', 'manual__2026-03-27T17:34:24.984698+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/dag-dbt-transformation-pipeline.py', '--cfg-path', '/tmp/tmppe8fdt3b']
+[2026-03-27T17:36:32.875+0000] {standard_task_runner.py:91} INFO - Job 6: Subtask wait_for_ingestion
+[2026-03-27T17:36:32.871+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=520) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:36:32.876+0000] {standard_task_runner.py:64} INFO - Started process 523 to run task
+[2026-03-27T17:36:33.097+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:36:33.427+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='dbt_transformation_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:34:24.984698+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:34:24.984698+00:00'
+[2026-03-27T17:36:33.429+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:36:33.487+0000] {baseoperator.py:400} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2026-03-27T17:36:33.535+0000] {external_task.py:258} INFO - Poking for tasks ['end'] in dag snowflake_ingestion_pipeline on 2026-03-27T17:34:24.984698+00:00 ... 
+[2026-03-27T17:36:33.555+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py:79 DeprecationWarning: This method is deprecated and will be removed in future.
+[2026-03-27T17:36:33.603+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:36:33.672+0000] {taskinstance.py:2865} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-03-27T17:36:33.713+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:36:33.832+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:36:33.837+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-27T17:37:34.643+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:37:34.719+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:37:34.735+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:37:34.737+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-27T17:37:34.765+0000] {taskinstance.py:2330} INFO - Executing <Task(ExternalTaskSensor): wait_for_ingestion> on 2026-03-27 17:34:24.984698+00:00
+[2026-03-27T17:37:34.783+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_transformation_pipeline', 'wait_for_ingestion', 'manual__2026-03-27T17:34:24.984698+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/dag-dbt-transformation-pipeline.py', '--cfg-path', '/tmp/tmpm2j8qug2']
+[2026-03-27T17:37:34.790+0000] {standard_task_runner.py:91} INFO - Job 7: Subtask wait_for_ingestion
+[2026-03-27T17:37:34.792+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1233) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:37:34.793+0000] {standard_task_runner.py:64} INFO - Started process 1234 to run task
+[2026-03-27T17:37:34.934+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:37:35.199+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='dbt_transformation_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:34:24.984698+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:34:24.984698+00:00'
+[2026-03-27T17:37:35.200+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:37:35.246+0000] {baseoperator.py:400} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2026-03-27T17:37:35.285+0000] {external_task.py:258} INFO - Poking for tasks ['end'] in dag snowflake_ingestion_pipeline on 2026-03-27T17:34:24.984698+00:00 ... 
+[2026-03-27T17:37:35.307+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py:79 DeprecationWarning: This method is deprecated and will be removed in future.
+[2026-03-27T17:37:35.359+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:37:35.501+0000] {taskinstance.py:2865} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-03-27T17:37:35.538+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:37:35.593+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:37:35.598+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-27T17:38:36.734+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:38:36.831+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:38:36.855+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:38:36.856+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-27T17:38:36.892+0000] {taskinstance.py:2330} INFO - Executing <Task(ExternalTaskSensor): wait_for_ingestion> on 2026-03-27 17:34:24.984698+00:00
+[2026-03-27T17:38:36.908+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_transformation_pipeline', 'wait_for_ingestion', 'manual__2026-03-27T17:34:24.984698+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/dag-dbt-transformation-pipeline.py', '--cfg-path', '/tmp/tmptqbvbs27']
+[2026-03-27T17:38:36.915+0000] {standard_task_runner.py:91} INFO - Job 8: Subtask wait_for_ingestion
+[2026-03-27T17:38:36.915+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1285) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:38:36.917+0000] {standard_task_runner.py:64} INFO - Started process 1286 to run task
+[2026-03-27T17:38:37.074+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:38:37.358+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='dbt_transformation_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:34:24.984698+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:34:24.984698+00:00'
+[2026-03-27T17:38:37.360+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:38:37.397+0000] {baseoperator.py:400} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2026-03-27T17:38:37.431+0000] {external_task.py:258} INFO - Poking for tasks ['end'] in dag snowflake_ingestion_pipeline on 2026-03-27T17:34:24.984698+00:00 ... 
+[2026-03-27T17:38:37.442+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py:79 DeprecationWarning: This method is deprecated and will be removed in future.
+[2026-03-27T17:38:37.475+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:38:37.519+0000] {taskinstance.py:2865} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-03-27T17:38:37.538+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:38:37.635+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:38:37.640+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-27T17:39:39.148+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:39:39.233+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:39:39.252+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:39:39.253+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-27T17:39:39.296+0000] {taskinstance.py:2330} INFO - Executing <Task(ExternalTaskSensor): wait_for_ingestion> on 2026-03-27 17:34:24.984698+00:00
+[2026-03-27T17:39:39.317+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_transformation_pipeline', 'wait_for_ingestion', 'manual__2026-03-27T17:34:24.984698+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/dag-dbt-transformation-pipeline.py', '--cfg-path', '/tmp/tmpw_13bfy8']
+[2026-03-27T17:39:39.330+0000] {standard_task_runner.py:91} INFO - Job 9: Subtask wait_for_ingestion
+[2026-03-27T17:39:39.331+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1337) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:39:39.334+0000] {standard_task_runner.py:64} INFO - Started process 1338 to run task
+[2026-03-27T17:39:39.531+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:39:39.777+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='dbt_transformation_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:34:24.984698+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:34:24.984698+00:00'
+[2026-03-27T17:39:39.779+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:39:39.818+0000] {baseoperator.py:400} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2026-03-27T17:39:39.845+0000] {external_task.py:258} INFO - Poking for tasks ['end'] in dag snowflake_ingestion_pipeline on 2026-03-27T17:34:24.984698+00:00 ... 
+[2026-03-27T17:39:39.858+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py:79 DeprecationWarning: This method is deprecated and will be removed in future.
+[2026-03-27T17:39:39.892+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:39:39.944+0000] {taskinstance.py:2865} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-03-27T17:39:39.997+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:39:40.066+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:39:40.072+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-27T17:40:41.376+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:40:41.491+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:40:41.513+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:40:41.514+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-27T17:40:41.570+0000] {taskinstance.py:2330} INFO - Executing <Task(ExternalTaskSensor): wait_for_ingestion> on 2026-03-27 17:34:24.984698+00:00
+[2026-03-27T17:40:41.587+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_transformation_pipeline', 'wait_for_ingestion', 'manual__2026-03-27T17:34:24.984698+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/dag-dbt-transformation-pipeline.py', '--cfg-path', '/tmp/tmph5vhkne9']
+[2026-03-27T17:40:41.592+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1389) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:40:41.594+0000] {standard_task_runner.py:91} INFO - Job 10: Subtask wait_for_ingestion
+[2026-03-27T17:40:41.595+0000] {standard_task_runner.py:64} INFO - Started process 1396 to run task
+[2026-03-27T17:40:41.747+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:40:41.920+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='dbt_transformation_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:34:24.984698+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:34:24.984698+00:00'
+[2026-03-27T17:40:41.922+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:40:41.957+0000] {baseoperator.py:400} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2026-03-27T17:40:41.981+0000] {external_task.py:258} INFO - Poking for tasks ['end'] in dag snowflake_ingestion_pipeline on 2026-03-27T17:34:24.984698+00:00 ... 
+[2026-03-27T17:40:41.992+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py:79 DeprecationWarning: This method is deprecated and will be removed in future.
+[2026-03-27T17:40:42.022+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:40:42.075+0000] {taskinstance.py:2865} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-03-27T17:40:42.093+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:40:42.154+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:40:42.158+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-27T17:41:42.903+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:41:43.015+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:41:43.037+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:41:43.039+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-27T17:41:43.072+0000] {taskinstance.py:2330} INFO - Executing <Task(ExternalTaskSensor): wait_for_ingestion> on 2026-03-27 17:34:24.984698+00:00
+[2026-03-27T17:41:43.095+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1443) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:41:43.089+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_transformation_pipeline', 'wait_for_ingestion', 'manual__2026-03-27T17:34:24.984698+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/dag-dbt-transformation-pipeline.py', '--cfg-path', '/tmp/tmpab66b8tg']
+[2026-03-27T17:41:43.097+0000] {standard_task_runner.py:64} INFO - Started process 1450 to run task
+[2026-03-27T17:41:43.098+0000] {standard_task_runner.py:91} INFO - Job 12: Subtask wait_for_ingestion
+[2026-03-27T17:41:43.254+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:41:43.446+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='dbt_transformation_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:34:24.984698+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:34:24.984698+00:00'
+[2026-03-27T17:41:43.450+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:41:43.492+0000] {baseoperator.py:400} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2026-03-27T17:41:43.526+0000] {external_task.py:258} INFO - Poking for tasks ['end'] in dag snowflake_ingestion_pipeline on 2026-03-27T17:34:24.984698+00:00 ... 
+[2026-03-27T17:41:43.538+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py:79 DeprecationWarning: This method is deprecated and will be removed in future.
+[2026-03-27T17:41:43.581+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:41:43.637+0000] {taskinstance.py:2865} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-03-27T17:41:43.676+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:41:43.754+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:41:43.759+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-27T17:42:44.319+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:42:44.477+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:42:44.507+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [queued]>
+[2026-03-27T17:42:44.509+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-27T17:42:44.579+0000] {taskinstance.py:2330} INFO - Executing <Task(ExternalTaskSensor): wait_for_ingestion> on 2026-03-27 17:34:24.984698+00:00
+[2026-03-27T17:42:44.614+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_transformation_pipeline', 'wait_for_ingestion', 'manual__2026-03-27T17:34:24.984698+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/dag-dbt-transformation-pipeline.py', '--cfg-path', '/tmp/tmph7h96wll']
+[2026-03-27T17:42:44.639+0000] {standard_task_runner.py:91} INFO - Job 13: Subtask wait_for_ingestion
+[2026-03-27T17:42:44.639+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=3303) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:42:44.641+0000] {standard_task_runner.py:64} INFO - Started process 3351 to run task
+[2026-03-27T17:42:44.860+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_transformation_pipeline.wait_for_ingestion manual__2026-03-27T17:34:24.984698+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:42:45.172+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='dbt_transformation_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:34:24.984698+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:34:24.984698+00:00'
+[2026-03-27T17:42:45.176+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:42:45.246+0000] {baseoperator.py:400} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2026-03-27T17:42:45.285+0000] {external_task.py:258} INFO - Poking for tasks ['end'] in dag snowflake_ingestion_pipeline on 2026-03-27T17:34:24.984698+00:00 ... 
+[2026-03-27T17:42:45.300+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py:79 DeprecationWarning: This method is deprecated and will be removed in future.
+[2026-03-27T17:42:45.350+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:42:45.428+0000] {taskinstance.py:2865} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-03-27T17:42:45.486+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:42:45.668+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:42:45.678+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

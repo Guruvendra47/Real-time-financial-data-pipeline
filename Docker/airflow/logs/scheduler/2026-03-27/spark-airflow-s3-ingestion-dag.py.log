@@ -1,0 +1,515 @@
+[2026-03-27T15:44:29.459+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:44:29.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:44:29.463+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:44:29.462+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:44:29.559+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:44:29.595+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:44:29.595+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:44:29.609+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:44:29.609+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:44:29.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.179 seconds
+[2026-03-27T15:45:00.222+0000] {processor.py:161} INFO - Started process (PID=374) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:45:00.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:45:00.237+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:45:00.236+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:45:00.557+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:45:00.687+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:45:00.687+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:45:00.744+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:45:00.743+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:45:00.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.606 seconds
+[2026-03-27T15:45:31.513+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:45:31.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:45:31.520+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:45:31.520+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:45:31.714+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:45:31.783+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:45:31.783+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:45:31.813+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:45:31.813+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:45:31.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.483 seconds
+[2026-03-27T15:46:02.522+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:46:02.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:46:02.528+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:46:02.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:46:02.657+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:46:02.695+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:46:02.694+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:46:02.709+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:46:02.709+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:46:02.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.220 seconds
+[2026-03-27T15:46:33.441+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:46:33.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:46:33.445+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:46:33.445+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:46:33.545+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:46:33.581+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:46:33.581+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:46:33.597+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:46:33.597+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:46:33.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.189 seconds
+[2026-03-27T15:47:04.338+0000] {processor.py:161} INFO - Started process (PID=693) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:47:04.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:47:04.341+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:47:04.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:47:04.428+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:47:04.462+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:47:04.462+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:47:04.476+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:47:04.476+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:47:04.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.167 seconds
+[2026-03-27T15:47:35.088+0000] {processor.py:161} INFO - Started process (PID=713) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:47:35.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:47:35.091+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:47:35.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:47:35.179+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:47:35.213+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:47:35.213+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:47:35.228+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:47:35.227+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:47:35.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.171 seconds
+[2026-03-27T15:48:06.022+0000] {processor.py:161} INFO - Started process (PID=733) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:48:06.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:48:06.025+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:48:06.024+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:48:06.113+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:48:06.148+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:48:06.147+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:48:06.161+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:48:06.160+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:48:06.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.166 seconds
+[2026-03-27T15:48:36.842+0000] {processor.py:161} INFO - Started process (PID=753) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:48:36.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:48:36.845+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:48:36.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:48:36.940+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:48:36.975+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:48:36.975+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:48:36.990+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:48:36.989+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:48:37.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.178 seconds
+[2026-03-27T15:49:07.676+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:49:07.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:49:07.679+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:49:07.679+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:49:07.775+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:49:07.809+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:49:07.809+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:49:07.824+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:49:07.823+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:49:07.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.181 seconds
+[2026-03-27T15:49:38.538+0000] {processor.py:161} INFO - Started process (PID=793) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:49:38.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:49:38.541+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:49:38.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:49:38.632+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:49:38.669+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:49:38.669+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:49:38.683+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:49:38.683+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:49:38.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.172 seconds
+[2026-03-27T15:50:09.432+0000] {processor.py:161} INFO - Started process (PID=964) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:50:09.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:50:09.438+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:50:09.437+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:50:09.603+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:50:09.650+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:50:09.649+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:50:09.673+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:50:09.672+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:50:09.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.283 seconds
+[2026-03-27T15:50:40.272+0000] {processor.py:161} INFO - Started process (PID=2065) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:50:40.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:50:40.275+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:50:40.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:50:40.373+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:50:40.412+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:50:40.412+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:50:40.426+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:50:40.426+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:50:40.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.185 seconds
+[2026-03-27T15:51:11.037+0000] {processor.py:161} INFO - Started process (PID=3332) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:51:11.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:51:11.041+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:51:11.041+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:51:11.138+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:51:11.173+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:51:11.173+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:51:11.187+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:51:11.187+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:51:11.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.182 seconds
+[2026-03-27T15:51:41.799+0000] {processor.py:161} INFO - Started process (PID=4217) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:51:41.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:51:41.803+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:51:41.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:51:41.903+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:51:41.940+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:51:41.940+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:51:41.956+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:51:41.956+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:51:41.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.187 seconds
+[2026-03-27T15:52:12.798+0000] {processor.py:161} INFO - Started process (PID=4241) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:52:12.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:52:12.803+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:52:12.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:52:12.908+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:52:12.946+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:52:12.946+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:52:12.961+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:52:12.961+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:52:12.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.197 seconds
+[2026-03-27T15:52:43.621+0000] {processor.py:161} INFO - Started process (PID=4261) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:52:43.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:52:43.624+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:52:43.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:52:43.726+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:52:43.762+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:52:43.762+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:52:43.776+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:52:43.776+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:52:43.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.184 seconds
+[2026-03-27T15:53:14.455+0000] {processor.py:161} INFO - Started process (PID=4285) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:53:14.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:53:14.458+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:53:14.458+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:53:14.572+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:53:14.604+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:53:14.604+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:53:14.617+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:53:14.617+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:53:14.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.194 seconds
+[2026-03-27T15:53:45.255+0000] {processor.py:161} INFO - Started process (PID=4305) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:53:45.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:53:45.257+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:53:45.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:53:45.357+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:53:45.393+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:53:45.393+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:53:45.408+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:53:45.408+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:53:45.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.183 seconds
+[2026-03-27T15:54:16.092+0000] {processor.py:161} INFO - Started process (PID=4325) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:54:16.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:54:16.097+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:54:16.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:54:16.187+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:54:16.224+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:54:16.223+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:54:16.239+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:54:16.239+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:54:16.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.176 seconds
+[2026-03-27T15:54:47.037+0000] {processor.py:161} INFO - Started process (PID=4345) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:54:47.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:54:47.040+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:54:47.039+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:54:47.137+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:54:47.171+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:54:47.171+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:54:47.185+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:54:47.184+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:54:47.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.176 seconds
+[2026-03-27T15:55:17.990+0000] {processor.py:161} INFO - Started process (PID=4365) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:55:17.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:55:17.993+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:55:17.992+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:55:18.083+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:55:18.118+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:55:18.117+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:55:18.131+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:55:18.131+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:55:18.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.174 seconds
+[2026-03-27T15:55:48.766+0000] {processor.py:161} INFO - Started process (PID=4385) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:55:48.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:55:48.769+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:55:48.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:55:48.863+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:55:48.897+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:55:48.897+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:55:48.911+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:55:48.911+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:55:48.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.174 seconds
+[2026-03-27T15:56:19.778+0000] {processor.py:161} INFO - Started process (PID=4405) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:56:19.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:56:19.781+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:56:19.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:56:19.868+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:56:19.904+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:56:19.904+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:56:19.917+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:56:19.917+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:56:19.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.170 seconds
+[2026-03-27T15:56:50.676+0000] {processor.py:161} INFO - Started process (PID=4425) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:56:50.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:56:50.679+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:56:50.679+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:56:50.766+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:56:50.802+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:56:50.802+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:56:50.816+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:56:50.815+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:56:50.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.170 seconds
+[2026-03-27T15:57:21.744+0000] {processor.py:161} INFO - Started process (PID=4445) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:57:21.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:57:21.747+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:57:21.746+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:57:21.838+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:57:21.872+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:57:21.872+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:57:21.886+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:57:21.885+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:57:21.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.173 seconds
+[2026-03-27T15:57:52.611+0000] {processor.py:161} INFO - Started process (PID=4465) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:57:52.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:57:52.613+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:57:52.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:57:52.701+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:57:52.754+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:57:52.753+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:57:52.767+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:57:52.767+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:57:52.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.183 seconds
+[2026-03-27T15:58:23.455+0000] {processor.py:161} INFO - Started process (PID=4485) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:58:23.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:58:23.459+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:58:23.458+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:58:23.552+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:58:23.591+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:58:23.591+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:58:23.607+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:58:23.607+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:58:23.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.183 seconds
+[2026-03-27T15:58:54.361+0000] {processor.py:161} INFO - Started process (PID=4505) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:58:54.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:58:54.364+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:58:54.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:58:54.453+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:58:54.489+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:58:54.489+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:58:54.502+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:58:54.502+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:58:54.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.170 seconds
+[2026-03-27T15:59:25.261+0000] {processor.py:161} INFO - Started process (PID=4525) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:59:25.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:59:25.264+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:59:25.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:59:25.356+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:59:25.392+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:59:25.392+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:59:25.407+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:59:25.407+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:59:25.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.174 seconds
+[2026-03-27T15:59:56.121+0000] {processor.py:161} INFO - Started process (PID=4545) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:59:56.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T15:59:56.125+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:59:56.124+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:59:56.229+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T15:59:56.268+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:59:56.267+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T15:59:56.287+0000] {logging_mixin.py:188} INFO - [2026-03-27T15:59:56.287+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T15:59:56.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.200 seconds
+[2026-03-27T16:00:26.738+0000] {processor.py:161} INFO - Started process (PID=4565) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:00:26.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:00:26.742+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:00:26.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:00:26.888+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:00:26.969+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:00:26.969+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:00:27.001+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:00:27.001+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:00:27.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.331 seconds
+[2026-03-27T16:00:57.502+0000] {processor.py:161} INFO - Started process (PID=4585) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:00:57.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:00:57.505+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:00:57.505+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:00:57.614+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:00:57.655+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:00:57.655+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:00:57.675+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:00:57.674+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:00:57.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.212 seconds
+[2026-03-27T16:01:28.120+0000] {processor.py:161} INFO - Started process (PID=4605) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:01:28.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:01:28.124+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:01:28.123+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:01:28.230+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:01:28.271+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:01:28.270+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:01:28.289+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:01:28.289+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:01:28.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.203 seconds
+[2026-03-27T16:01:58.815+0000] {processor.py:161} INFO - Started process (PID=4625) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:01:58.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:01:58.819+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:01:58.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:01:58.932+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:01:58.978+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:01:58.977+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:01:59.004+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:01:59.003+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:01:59.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.234 seconds
+[2026-03-27T16:02:29.518+0000] {processor.py:161} INFO - Started process (PID=4645) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:02:29.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:02:29.522+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:02:29.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:02:29.649+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:02:29.697+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:02:29.696+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:02:29.718+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:02:29.718+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:02:29.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.238 seconds
+[2026-03-27T16:03:00.215+0000] {processor.py:161} INFO - Started process (PID=4707) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:03:00.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:03:00.219+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:03:00.218+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:03:00.333+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:03:00.384+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:03:00.384+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:03:00.405+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:03:00.405+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:03:00.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.226 seconds
+[2026-03-27T16:03:30.901+0000] {processor.py:161} INFO - Started process (PID=6238) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:03:30.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:03:30.909+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:03:30.908+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:03:31.043+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:03:31.105+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:03:31.105+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:03:31.130+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:03:31.129+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:03:31.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.286 seconds
+[2026-03-27T16:04:01.737+0000] {processor.py:161} INFO - Started process (PID=7489) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:04:01.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:04:01.742+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:04:01.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:04:01.874+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:04:01.924+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:04:01.923+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:04:01.950+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:04:01.949+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:04:01.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.257 seconds
+[2026-03-27T16:04:32.472+0000] {processor.py:161} INFO - Started process (PID=7532) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:04:32.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:04:32.475+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:04:32.475+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:04:32.598+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:04:32.651+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:04:32.651+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:04:32.672+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:04:32.672+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:04:32.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.236 seconds
+[2026-03-27T16:05:03.460+0000] {processor.py:161} INFO - Started process (PID=7552) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:05:03.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:05:03.467+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:05:03.466+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:05:03.679+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:05:03.762+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:05:03.761+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:05:03.792+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:05:03.792+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:05:03.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.391 seconds
+[2026-03-27T16:05:34.350+0000] {processor.py:161} INFO - Started process (PID=7577) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:05:34.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:05:34.356+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:05:34.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:05:34.533+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:05:34.614+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:05:34.613+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:05:34.642+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:05:34.642+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:05:34.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.342 seconds
+[2026-03-27T16:06:04.787+0000] {processor.py:161} INFO - Started process (PID=7597) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:06:04.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:06:04.793+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:06:04.792+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:06:04.956+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:06:05.027+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:06:05.026+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:06:05.053+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:06:05.053+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:06:05.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.319 seconds
+[2026-03-27T16:06:35.334+0000] {processor.py:161} INFO - Started process (PID=7617) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:06:35.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:06:35.341+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:06:35.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:06:35.522+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:06:35.606+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:06:35.605+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:06:35.636+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:06:35.635+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:06:35.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.352 seconds
+[2026-03-27T16:07:06.038+0000] {processor.py:161} INFO - Started process (PID=7642) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:07:06.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:07:06.044+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:07:06.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:07:06.227+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:07:06.291+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:07:06.291+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:07:06.315+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:07:06.315+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:07:06.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.358 seconds
+[2026-03-27T16:07:36.660+0000] {processor.py:161} INFO - Started process (PID=7662) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:07:36.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:07:36.667+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:07:36.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:07:36.864+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:07:36.937+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:07:36.937+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:07:36.963+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:07:36.963+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:07:37.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.386 seconds
+[2026-03-27T16:08:07.240+0000] {processor.py:161} INFO - Started process (PID=7730) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:08:07.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:08:07.249+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:08:07.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:08:07.465+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:08:07.547+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:08:07.547+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:08:07.579+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:08:07.579+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:08:07.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.422 seconds
+[2026-03-27T16:08:37.774+0000] {processor.py:161} INFO - Started process (PID=9472) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:08:37.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:08:37.781+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:08:37.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:08:38.002+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:08:38.090+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:08:38.089+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:08:38.123+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:08:38.122+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:08:38.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.412 seconds
+[2026-03-27T16:09:08.298+0000] {processor.py:161} INFO - Started process (PID=9890) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:09:08.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:09:08.306+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:09:08.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:09:08.499+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:09:08.564+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:09:08.564+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:09:08.590+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:09:08.590+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:09:08.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.370 seconds
+[2026-03-27T16:09:38.799+0000] {processor.py:161} INFO - Started process (PID=9940) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:09:38.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:09:38.806+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:09:38.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:09:38.989+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:09:39.042+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:09:39.042+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:09:39.068+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:09:39.067+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:09:39.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.326 seconds
+[2026-03-27T16:10:09.272+0000] {processor.py:161} INFO - Started process (PID=9960) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:10:09.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:10:09.279+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:10:09.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:10:09.451+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:10:09.509+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:10:09.508+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:10:09.537+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:10:09.537+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:10:09.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.335 seconds
+[2026-03-27T16:10:39.709+0000] {processor.py:161} INFO - Started process (PID=9980) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:10:39.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:10:39.715+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:10:39.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:10:39.924+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:10:40.004+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:10:40.003+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:10:40.026+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:10:40.026+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:10:40.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.389 seconds
+[2026-03-27T16:11:10.284+0000] {processor.py:161} INFO - Started process (PID=10000) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:11:10.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:11:10.292+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:11:10.292+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:11:10.484+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:11:10.549+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:11:10.548+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:11:10.575+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:11:10.574+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:11:10.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.357 seconds
+[2026-03-27T16:11:40.770+0000] {processor.py:161} INFO - Started process (PID=10020) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:11:40.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:11:40.776+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:11:40.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:11:40.942+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:11:41.008+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:11:41.007+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:11:41.026+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:11:41.026+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:11:41.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.332 seconds
+[2026-03-27T16:12:11.486+0000] {processor.py:161} INFO - Started process (PID=10040) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:12:11.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:12:11.494+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:12:11.493+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:12:11.680+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:12:11.769+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:12:11.768+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:12:11.807+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:12:11.807+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:12:11.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.404 seconds
+[2026-03-27T16:12:42.107+0000] {processor.py:161} INFO - Started process (PID=10060) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:12:42.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:12:42.113+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:12:42.112+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:12:42.348+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:12:42.426+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:12:42.426+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:12:42.452+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:12:42.451+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:12:42.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.408 seconds
+[2026-03-27T16:13:12.814+0000] {processor.py:161} INFO - Started process (PID=10080) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:13:12.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:13:12.821+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:13:12.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:13:13.024+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:13:13.089+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:13:13.088+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:13:13.114+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:13:13.113+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:13:13.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.379 seconds
+[2026-03-27T16:13:43.302+0000] {processor.py:161} INFO - Started process (PID=11741) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:13:43.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:13:43.308+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:13:43.307+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:13:43.502+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:13:43.577+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:13:43.577+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:13:43.602+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:13:43.602+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:13:43.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.371 seconds
+[2026-03-27T16:14:13.948+0000] {processor.py:161} INFO - Started process (PID=13166) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:14:13.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:14:13.956+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:14:13.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:14:14.203+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:14:14.269+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:14:14.269+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:14:14.291+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:14:14.291+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:14:14.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.428 seconds
+[2026-03-27T16:14:44.607+0000] {processor.py:161} INFO - Started process (PID=13203) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:14:44.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:14:44.613+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:14:44.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:14:44.787+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:14:44.843+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:14:44.842+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:14:44.871+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:14:44.870+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:14:44.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.339 seconds
+[2026-03-27T16:15:15.248+0000] {processor.py:161} INFO - Started process (PID=13223) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:15:15.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:15:15.256+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:15:15.255+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:15:15.498+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:15:15.574+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:15:15.574+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:15:15.605+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:15:15.605+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:15:15.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.435 seconds
+[2026-03-27T16:15:45.913+0000] {processor.py:161} INFO - Started process (PID=13243) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:15:45.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:15:45.921+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:15:45.920+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:15:46.129+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:15:46.206+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:15:46.205+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:15:46.238+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:15:46.238+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:15:46.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.409 seconds
+[2026-03-27T16:16:16.546+0000] {processor.py:161} INFO - Started process (PID=13263) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:16:16.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:16:16.552+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:16:16.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:16:16.737+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:16:16.807+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:16:16.806+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:16:16.842+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:16:16.842+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:16:16.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.377 seconds
+[2026-03-27T16:20:39.254+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:20:39.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:20:39.263+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:20:39.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:20:39.351+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:20:39.778+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:20:39.777+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:spark-airflow-s3-ingestion-dag
+[2026-03-27T16:20:39.801+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:20:39.800+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:spark-airflow-s3-ingestion-dag
+[2026-03-27T16:20:39.814+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:20:39.814+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:spark-airflow-s3-ingestion-dag
+[2026-03-27T16:20:39.815+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:20:39.815+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:20:39.836+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:20:39.835+0000] {dag.py:3111} INFO - Creating ORM DAG for spark-airflow-s3-ingestion-dag
+[2026-03-27T16:20:39.837+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:20:39.837+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:20:39.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.643 seconds
+[2026-03-27T16:21:10.171+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:21:10.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:21:10.178+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:21:10.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:21:10.233+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:21:10.320+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:21:10.320+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:21:10.371+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:21:10.370+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:21:10.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.265 seconds
+[2026-03-27T16:21:40.892+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:21:40.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:21:40.919+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:21:40.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:21:40.965+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:21:41.037+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:21:41.036+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:21:41.065+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:21:41.064+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:21:41.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.264 seconds
+[2026-03-27T16:22:11.444+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:22:11.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:22:11.455+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:22:11.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:22:11.520+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:22:11.652+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:22:11.651+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:22:11.728+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:22:11.727+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:22:11.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.401 seconds
+[2026-03-27T16:22:41.957+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:22:41.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:22:41.967+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:22:41.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:22:42.024+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:22:42.126+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:22:42.125+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:22:42.206+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:22:42.205+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:22:42.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.367 seconds
+[2026-03-27T16:23:12.606+0000] {processor.py:161} INFO - Started process (PID=1400) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:23:12.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:23:12.618+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:23:12.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:23:12.659+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:23:12.729+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:23:12.729+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:23:12.757+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:23:12.756+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:23:12.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.220 seconds
+[2026-03-27T16:23:43.101+0000] {processor.py:161} INFO - Started process (PID=1657) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:23:43.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:23:43.109+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:23:43.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:23:43.165+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:23:43.244+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:23:43.244+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:23:43.278+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:23:43.278+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:23:43.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.271 seconds
+[2026-03-27T16:24:13.688+0000] {processor.py:161} INFO - Started process (PID=1677) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:24:13.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:24:13.699+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:24:13.698+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:24:13.745+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:24:13.811+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:24:13.811+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:24:13.852+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:24:13.851+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:24:13.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.253 seconds
+[2026-03-27T16:24:44.415+0000] {processor.py:161} INFO - Started process (PID=1697) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:24:44.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:24:44.422+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:24:44.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:24:44.484+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:24:44.606+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:24:44.605+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:24:44.643+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:24:44.642+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:24:44.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.315 seconds
+[2026-03-27T16:25:15.271+0000] {processor.py:161} INFO - Started process (PID=1717) to work on /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:25:15.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py for tasks to queue
+[2026-03-27T16:25:15.280+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:25:15.279+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:25:15.326+0000] {processor.py:840} INFO - DAG(s) 'spark-airflow-s3-ingestion-dag' retrieved from /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py
+[2026-03-27T16:25:15.403+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:25:15.403+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-27T16:25:15.438+0000] {logging_mixin.py:188} INFO - [2026-03-27T16:25:15.438+0000] {dag.py:3947} INFO - Setting next_dagrun for spark-airflow-s3-ingestion-dag to None, run_after=None
+[2026-03-27T16:25:15.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark-airflow-s3-ingestion-dag.py took 0.266 seconds

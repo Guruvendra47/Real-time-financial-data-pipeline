@@ -1,0 +1,20 @@
+[2026-03-27T17:35:35.727+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T17:35:35.765+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark-airflow-s3-ingestion-dag.run_spark_stream manual__2026-03-27T17:35:33.479560+00:00 [queued]>
+[2026-03-27T17:35:35.781+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark-airflow-s3-ingestion-dag.run_spark_stream manual__2026-03-27T17:35:33.479560+00:00 [queued]>
+[2026-03-27T17:35:35.784+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-03-27T17:35:35.811+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): run_spark_stream> on 2026-03-27 17:35:33.479560+00:00
+[2026-03-27T17:35:35.822+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'spark-airflow-s3-ingestion-dag', 'run_spark_stream', 'manual__2026-03-27T17:35:33.479560+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/dag-spark-airflow-s3-ingestion.py', '--cfg-path', '/tmp/tmpas3278ro']
+[2026-03-27T17:35:35.830+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask run_spark_stream
+[2026-03-27T17:35:35.832+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=291) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-27T17:35:35.833+0000] {standard_task_runner.py:64} INFO - Started process 294 to run task
+[2026-03-27T17:35:35.966+0000] {task_command.py:426} INFO - Running <TaskInstance: spark-airflow-s3-ingestion-dag.run_spark_stream manual__2026-03-27T17:35:33.479560+00:00 [running]> on host 10fdca924196
+[2026-03-27T17:35:36.173+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='guruvendra01' AIRFLOW_CTX_DAG_ID='spark-airflow-s3-ingestion-dag' AIRFLOW_CTX_TASK_ID='run_spark_stream' AIRFLOW_CTX_EXECUTION_DATE='2026-03-27T17:35:33.479560+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-27T17:35:33.479560+00:00'
+[2026-03-27T17:35:36.175+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-27T17:35:36.207+0000] {logging_mixin.py:188} INFO - Stale PID found; restarting Spark
+[2026-03-27T17:36:06.219+0000] {logging_mixin.py:188} INFO - Spark started successfully with PID 295
+[2026-03-27T17:36:06.221+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-27T17:36:06.222+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-27T17:36:06.264+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=spark-airflow-s3-ingestion-dag, task_id=run_spark_stream, run_id=manual__2026-03-27T17:35:33.479560+00:00, execution_date=20260327T173533, start_date=20260327T173535, end_date=20260327T173606
+[2026-03-27T17:36:06.343+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-27T17:36:06.467+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-27T17:36:06.490+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
