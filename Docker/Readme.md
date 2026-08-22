@@ -1,6 +1,8 @@
 # Docker Setup — Real-Time Financial Data Pipeline
 
-## Architecture Overview
+This setup runs the real-time financial data pipeline locally using Docker and Docker Compose.
+
+## Architecture
 
 ```text
 Kafka → Spark → S3 → Snowflake → dbt → Power BI
@@ -10,57 +12,44 @@ Kafka → Spark → S3 → Snowflake → dbt → Power BI
                   Docker
 ```
 
-This pipeline runs completely on Docker for local development and testing.
+## Prerequisites
+
+* Docker
+* Docker Compose
+* Python
+* Git
 
 ---
 
-# Step 1 — Install Docker
+## 1. Install Docker
 
 Download and install Docker from the official Docker website.
 
-### Verify Installation
+Verify the installation:
 
 ```bash
 docker --version
 ```
 
-### What Was Done
-
-Docker was installed on the system.
-
-### Purpose
-
-Docker is used to run all required services as containers, including Kafka, Spark, Airflow, and Postgres.
-
 ---
 
-# Step 2 — Navigate to Project Folder
+## 2. Navigate to the Project
 
 ```bash
 cd real-time-financial-data-pipeline
 ```
 
-### What Was Done
-
-Moved into the project directory containing all configuration files.
-
-### Purpose
-
-Ensures Docker Compose can access the required files and services.
-
 ---
 
-# Step 3 — Start All Services Using Docker Compose
+## 3. Start the Services
 
-Run the following command:
+Start all services using Docker Compose:
 
 ```bash
 docker-compose up -d
 ```
 
-### What Was Started
-
-The following containers are launched:
+The following services are started:
 
 * Zookeeper
 * Kafka
@@ -70,237 +59,196 @@ The following containers are launched:
 * Airflow Webserver
 * Airflow Scheduler
 
-### Purpose
-
-Starts the complete real-time data pipeline locally using a single command.
-
 ---
 
-# Step 4 — Verify Running Containers
+## 4. Verify Running Containers
 
 ```bash
 docker ps
 ```
 
-### Expected Containers
+Verify that the required containers are running, including:
 
-You should see containers similar to:
-
-* kafka
-* spark-master
-* airflow
-* postgres
-
-### Purpose
-
-Verifies that all required services are running successfully.
+```text
+kafka
+spark-master
+airflow
+postgres
+```
 
 ---
 
-# Step 5 — Access Airflow UI
+## 5. Access Airflow
 
-Open the following URL in your browser:
+Open:
 
 ```text
 http://localhost:8081
 ```
 
-### Login Credentials
+Login:
 
 ```text
 Username: admin
 Password: admin
 ```
 
-### What Was Done
-
-Accessed the Airflow web interface.
-
-### Purpose
-
-Airflow is used to orchestrate and manage the pipeline workflow, including Spark and dbt jobs.
+Airflow is used to orchestrate the pipeline and manage Spark and dbt jobs.
 
 ---
 
-# Step 6 — Create Kafka Topic
+## 6. Create the Kafka Topic
 
-Run the topic creation script:
+Run:
 
 ```bash
 bash create_topic.sh
 ```
 
-### What Was Done
-
-Created the Kafka topic required for streaming data.
-
-### Purpose
-
-Kafka topics are required for producers and consumers to exchange streaming data.
+This creates the Kafka topic used for streaming financial data.
 
 ---
 
-# Step 7 — Run Kafka Producer
+## 7. Start the Kafka Producer
 
 ```bash
 python kafka-producer.py
 ```
 
-### Important Docker Configuration
+For Docker, the Kafka broker should be configured as:
 
-Ensure the Kafka broker is configured as:
-
-```python
-"kafka:29092"
+```text
+kafka:29092
 ```
 
-This configuration allows containers to communicate correctly within the Docker network.
-
-### What Was Done
-
-Started streaming real-time financial data into Kafka.
-
-### Purpose
-
-Simulates real-time data ingestion into the pipeline.
+This allows services running inside the Docker network to communicate with Kafka.
 
 ---
 
-# Step 8 — Run Spark Streaming Through Airflow
+## 8. Run Spark Streaming
 
-The Airflow DAG automatically handles Spark job execution.
+The Spark job is triggered through the Airflow DAG.
 
-### In Airflow
+In Airflow:
 
-1. Enable the DAG
-2. Trigger the DAG manually
+1. Enable the DAG.
+2. Trigger the DAG.
 
-### Internal Spark Execution
+Spark runs using:
 
 ```bash
 spark-submit --master spark://spark-master:7077
 ```
 
-### What Was Done
-
-Triggered the Spark streaming job using Airflow.
-
-### Purpose
-
-Processes streaming Kafka data and loads it into storage layers.
+The Spark job reads streaming data from Kafka and processes it for storage.
 
 ---
 
-# Step 9 — Spark Streaming Processing
+## 9. Spark Processing
 
-### Spark Job Responsibilities
+The Spark streaming job:
 
-* Reads streaming data from Kafka (`kafka:29092`)
-* Converts JSON data into structured format
-* Writes data into:
+* Reads financial data from Kafka
+* Processes JSON data
+* Converts the data into a structured format
+* Writes data to the storage layers
 
-  * Raw Layer
-  * Processed Layer
-  * Curated Layer
-
-### What Was Done
-
-Processed streaming financial data using Spark.
-
-### Purpose
-
-Implements a modern data lake architecture using Bronze, Silver, and Gold layers.
+```text
+Raw Layer
+    ↓
+Processed Layer
+    ↓
+Curated Layer
+```
 
 ---
 
-# Step 10 — dbt Transformation (Optional)
+## 10. dbt Transformation
 
-### Process
+Airflow can trigger the dbt transformation jobs.
 
-* Airflow triggers dbt jobs
-* dbt transforms data inside Snowflake
+dbt transforms the data inside Snowflake and prepares it for analytics.
 
-### What Was Done
-
-Performed analytics transformations on processed data.
-
-### Purpose
-
-Prepares business-ready and analytics-ready datasets.
+```text
+Processed Data
+      ↓
+   Snowflake
+      ↓
+     dbt
+      ↓
+Analytics-Ready Data
+```
 
 ---
 
-# Step 11 — Stop All Services
+## 11. Stop the Services
+
+Stop and remove the running containers:
 
 ```bash
 docker-compose down
 ```
 
-### What Was Done
-
-Stopped and removed all running containers.
-
-### Purpose
-
-Safely shuts down the local pipeline environment.
-
 ---
 
-# Execution Flow
+## Execution Flow
 
 ```text
-docker-compose up
-        ↓
-Create Kafka topic
-        ↓
-Run Kafka producer
-        ↓
-Trigger Airflow DAG
-        ↓
-Spark streaming job starts
-        ↓
-Data stored in S3
-        ↓
-dbt transformations executed
+Docker Compose
+      ↓
+Kafka
+      ↓
+Kafka Producer
+      ↓
+Airflow
+      ↓
+Spark Streaming
+      ↓
+S3
+      ↓
+Snowflake
+      ↓
+dbt
+      ↓
+Power BI
 ```
 
 ---
 
-# Important Project Improvements
+## Docker Configuration
 
-## Add `.dockerignore`
+Add a `.dockerignore` file to exclude unnecessary files:
 
-Create a `.dockerignore` file:
-
-```bash
+```text
 __pycache__/
 *.log
 dbt-env/
 ```
 
-### Purpose
-
-Prevents unnecessary files from being copied into Docker images, improving performance and reducing image size.
+This keeps Docker builds smaller and prevents unnecessary files from being copied into images.
 
 ---
 
-# Docker vs Kubernetes
+## Docker and Kubernetes
 
-| Docker                           | Kubernetes                     |
-| -------------------------------- | ------------------------------ |
-| Simple local setup               | Enterprise orchestration       |
-| Best for development and testing | Best for production deployment |
-| Uses docker-compose              | Uses kubectl and Helm          |
-
-### Recommended Learning Path
-
-Docker is typically used first for development and testing, followed by Kubernetes for scalable production deployment. This project follows the same industry-standard progression.
+| Docker                        | Kubernetes                                 |
+| ----------------------------- | ------------------------------------------ |
+| Local development and testing | Container orchestration                    |
+| Uses Docker Compose           | Uses kubectl and Helm                      |
+| Simple local setup            | Scalable deployment                        |
+| Suitable for development      | Suitable for production-style environments |
 
 ---
 
-# Summary
+## Related Documentation
 
-This Docker-based setup enables a complete real-time financial data pipeline locally using:
+For the Kubernetes deployment, see:
+
+[Kubernetes Setup](../Kubernetes/Readme.md)
+
+## Summary
+
+This Docker setup provides a complete local environment for the real-time financial data pipeline using:
 
 * Kafka for streaming
 * Spark for processing
@@ -310,4 +258,6 @@ This Docker-based setup enables a complete real-time financial data pipeline loc
 * dbt for transformations
 * Power BI for analytics and visualization
 
-The setup provides a production-style architecture while remaining simple enough for local development and learning.
+## Author
+
+**Guruvendra Singh**
