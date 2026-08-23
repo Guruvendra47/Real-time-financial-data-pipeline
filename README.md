@@ -4,7 +4,7 @@ A real-time financial data pipeline built using modern data engineering technolo
 
 ## Data Source
 
-Financial market data is collected from [Finnhub](https://finnhub.io/) and streamed through the pipeline for real-time processing and analytics.
+Financial market data is extracted from [Finnhub](https://finnhub.io/) using its API through the Kafka Producer, published to a Kafka Topic, and processed using Spark Streaming.
 
 ## Architecture
 
