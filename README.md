@@ -2,9 +2,15 @@
 
 A real-time financial data pipeline built using modern data engineering technologies.
 
+## Data Source
+
+Financial market data is collected from [Finnhub](https://finnhub.io/) and streamed through the pipeline for real-time processing and analytics.
+
 ## Architecture
 
 ```text
+Finnhub
+   ↓
 Kafka → Spark → S3 → Snowflake → dbt → Power BI
             ↑
          Airflow
@@ -12,6 +18,7 @@ Kafka → Spark → S3 → Snowflake → dbt → Power BI
 
 ## Technologies
 
+* Finnhub
 * Kafka
 * Apache Spark
 * Amazon S3
@@ -30,13 +37,13 @@ This project supports two deployment methods.
 
 Used for local development and testing.
 
-[Docker Setup](./Docker/Readme.md)
+[Docker Setup](https://github.com/Guruvendra47/Real-time-financial-data-pipeline/blob/main/Docker/Readme.md)
 
 ### Kubernetes
 
 Used for container orchestration and deployment.
 
-[Kubernetes Setup](./Kubernetes/Readme.md)
+[Kubernetes Setup](https://github.com/Guruvendra47/Real-time-financial-data-pipeline/blob/main/Kubernetes/Readme.md)
 
 ## Project Structure
 
