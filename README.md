@@ -79,6 +79,9 @@ Used for container orchestration and deployment.
 ```text
 Real-time-financial-data-pipeline-project/
 │
+├── architecture/
+│   └── architecture.png
+│
 ├── Docker/
 │   ├── airflow/
 │   ├── dbt/
