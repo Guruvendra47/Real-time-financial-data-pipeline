@@ -37,6 +37,8 @@ Financial market data is extracted from [Finnhub](https://finnhub.io/) using its
 
 ## Architecture
 
+![Real-Time Financial Data Pipeline Architecture](./architecture/architecture.png)
+
 ```text
 Finnhub
    ↓
