@@ -1,0 +1,11 @@
+AWS_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+AWS_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+AWS_REGION=us-east-1
+S3_BUCKET=real-time-financial-data-pipeline
+
+# Redshift Creditionals
+host=real-time-workgroup-s3.954976291800.us-east-1.redshift-serverless.amazonaws.com
+port=5439
+dbname=dev
+user=admin
+password=XXXXXXXXXXXXXXXXXXXXXXXXX
